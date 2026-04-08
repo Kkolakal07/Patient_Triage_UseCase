@@ -1,0 +1,37 @@
+# Core dependencies (no external packages required for basic functionality)
+# The system uses only Python standard library for the basic version
+
+# ============================================================
+# LLM PROVIDERS (uncomment the one you want to use)
+# ============================================================
+
+# OpenAI (GPT-4, GPT-4o-mini, GPT-3.5)
+# openai>=1.0.0
+
+# Anthropic Claude (Claude 3.5 Sonnet, Claude 3 Opus)
+anthropic>=0.18.0
+
+# Note: For Ollama (local LLMs), no pip install needed - just run Ollama locally
+# Download from: https://ollama.ai
+
+# ============================================================
+# Optional: Advanced NLP features (transformer-based classification)
+# ============================================================
+# transformers>=4.30.0
+# torch>=2.0.0
+# scikit-learn>=1.3.0
+
+# ============================================================
+# Optional: For production deployment
+# ============================================================
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# pydantic>=2.0.0
+# redis>=4.5.0
+# celery>=5.3.0
+
+# ============================================================
+# Optional: For monitoring and logging
+# ============================================================
+# structlog>=23.1.0
+# prometheus-client>=0.17.0
